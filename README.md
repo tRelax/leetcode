@@ -2,6 +2,6 @@
 
 # Progress:
 
-- [ ] Arrays & Hashing: 7/9
+- [ x ] Arrays & Hashing: 9/9
 
 > Started on 15th of November, 2024.
