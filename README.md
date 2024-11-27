@@ -4,6 +4,6 @@
 
 - [x] Arrays & Hashing: 9/9
 - [x] Two Pointers: 5/5
-- [ ] Stack: 0/7
+- [x] Stack: 7/7
 
 > Started on 15th of November, 2024.
