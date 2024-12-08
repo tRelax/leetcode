@@ -7,6 +7,7 @@
 - [x] Stack: 7/7
 - [x] Sliding Window: 6/6
 - [x] Linked List: 11/11
-- [ ] Binary Search: 0/7
+- [x] Binary Search: 7/7
+- [ ] Trees: 0/15
 
 > Started on 15th of November, 2024.
