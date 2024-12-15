@@ -10,5 +10,6 @@
 - [x] Binary Search: 7/7
 - [x] Trees: 15/15
 - [x] Tries: 3/3
+- [x] Backtracking: 9/9
 
 > Started on 15th of November, 2024.
