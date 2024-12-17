@@ -8,5 +8,16 @@ class Solution:
 
         return dfs(0)
 
+    # 1d dp solution
+    def climbStairs(self, n: int) -> int:
+        one, two = 1, 1
 
-print(Solution().climbStairs(3))
+        for i in range(n-1):
+            tmp = one
+            one = one + two
+            two = tmp
+
+        return one
+
+
+print(Solution().climbStairs(5))
