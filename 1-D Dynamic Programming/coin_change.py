@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    # top-down
     def coinChange(self, coins: List[int], amount: int) -> int:
         memo = {}
 
@@ -20,3 +21,18 @@ class Solution:
 
         minCoins = dfs(amount)
         return -1 if minCoins >= 1e9 else minCoins
+
+    # bottom-up
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        memo = [amount+1] * (amount + 1)
+        memo[0] = 0
+
+        for a in range(1, amount + 1):
+            for c in coins:
+                if a - c >= 0:
+                    memo[a] = min(memo[a], 1 + memo[a-c])
+
+        return memo[amount] if memo[amount] != (amount + 1) else -1
+
+
+print(Solution().coinChange([1, 5, 10], 12))
