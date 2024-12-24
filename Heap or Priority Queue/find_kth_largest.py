@@ -9,6 +9,10 @@ class Solution:
             heapq.heappop(nums)
         return nums[0]
 
+    # cleaner
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        return heapq.nlargest(k, nums)[-1]
+
 
 nums = [2, 3, 1, 5, 4]
 k = 2
