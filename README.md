@@ -12,6 +12,6 @@
 - [x] Tries: 3/3
 - [x] Backtracking: 9/9
 - [x] 1-D Dynamic Programming: 12/12
-- [ ] Heap / Priority Queue: 2/7
+- [x] Heap / Priority Queue: 7/7
 
 > Started on 15th of November, 2024.
