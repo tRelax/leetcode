@@ -13,5 +13,6 @@
 - [x] Backtracking: 9/9
 - [x] 1-D Dynamic Programming: 12/12
 - [x] Heap / Priority Queue: 7/7
+- [ ] Graphs: 2/13
 
 > Started on 15th of November, 2024.
