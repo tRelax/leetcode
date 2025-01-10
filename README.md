@@ -14,5 +14,5 @@
 - [x] 1-D Dynamic Programming: 12/12
 - [x] Heap / Priority Queue: 7/7
 - [x] Graphs: 13/13
-
+- [ ] Intervals: 4/6
 > Started on 15th of November, 2024.
