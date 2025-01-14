@@ -15,4 +15,5 @@
 - [x] Heap / Priority Queue: 7/7
 - [x] Graphs: 13/13
 - [x] Intervals: 6/6
+- [ ] Greedy: 3/8
 > Started on 15th of November, 2024.
