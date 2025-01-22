@@ -16,4 +16,5 @@
 - [x] Graphs: 13/13
 - [x] Intervals: 6/6
 - [x] Greedy: 8/8
+- [ ] Advanced Graphs: 2/6
 > Started on 15th of November, 2024.
