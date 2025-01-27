@@ -8,20 +8,23 @@ class Solution:
         edges = defaultdict(list)
         n = len(points)
 
+        # Helper function to calculate Manhattan distance
         def dist(p1, p2):
             return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
 
+        # Create edges for all points with every other point
         for i in range(n):
             for j in range(i + 1, n):
                 edges[i].append((j, dist(points[i], points[j])))
                 edges[j].append((i, dist(points[i], points[j])))
 
+        # Prim's Algorithm
         minHeap = [(0, 0)]
         visited = set()
         res = 0
 
         while minHeap:
-            w1, n1 = heapq.heappop(minHeap)
+            w1, n1 = heapq.heappop(minHeap)  # weight, node
             if n1 in visited:
                 continue
 
