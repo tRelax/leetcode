@@ -17,5 +17,5 @@
 - [x] Intervals: 6/6
 - [x] Greedy: 8/8
 - [x] Advanced Graphs: 6/6
-- [ ] 2-D Dynamic Programming: 3/11
+- [x] 2-D Dynamic Programming: 11/11
 > Started on 15th of November, 2024.
